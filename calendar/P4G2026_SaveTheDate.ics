@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Danone//Partner For Growth 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260917T090000
+DTEND:20260918T180000
+DTSTAMP:20260320T120000Z
+UID:p4g2026-save-the-date@danone.com
+SUMMARY:Partner For Growth 2026 — Accelerating to win TOGETHER
+LOCATION:Danone Research & Innovation – Daniel Carasso Center\, Paris-Saclay
+DESCRIPTION:Partner For Growth 2026 is Danone's flagship partner event.\n\nJoin senior leaders from 50 strategic partner companies for two days of face-to-face engagement with Danone's Executive Committee.\n\nMore details to follow.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
