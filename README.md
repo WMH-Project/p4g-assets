@@ -54,6 +54,28 @@ Assets graphiques officiels du programme **Partner4Growth 2024** (Danone).
 
 ---
 
+## Key Visuals P4G 2026
+
+### JPG
+
+| Nom | Lien direct |
+|---|---|
+| KV 01 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/jpg/KV_Danone_P4G_032026_01.jpg) |
+| KV 02 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/jpg/KV_Danone_P4G_032026_02.jpg) |
+| KV 03 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/jpg/KV_Danone_P4G_032026_03.jpg) |
+| KV 04 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/jpg/KV_Danone_P4G_032026_04.jpg) |
+
+### PNG
+
+| Nom | Lien direct |
+|---|---|
+| KV 01 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/png/KV_Danone_P4G_032026_01.png) |
+| KV 02 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/png/KV_Danone_P4G_032026_02.png) |
+| KV 03 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/png/KV_Danone_P4G_032026_03.png) |
+| KV 04 | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/png/KV_Danone_P4G_032026_04.png) |
+
+---
+
 ## Structure du repo
 
 ```
@@ -82,5 +104,16 @@ p4g-assets/
 │   │   └── Partner4Growth_2024_logo_blanc_fdBleu.jpg
 │   └── vector/
 │       └── DANONE-P4G-LOGO.ai
+├── kv/
+│   ├── jpg/
+│   │   ├── KV_Danone_P4G_032026_01.jpg
+│   │   ├── KV_Danone_P4G_032026_02.jpg
+│   │   ├── KV_Danone_P4G_032026_03.jpg
+│   │   └── KV_Danone_P4G_032026_04.jpg
+│   └── png/
+│       ├── KV_Danone_P4G_032026_01.png
+│       ├── KV_Danone_P4G_032026_02.png
+│       ├── KV_Danone_P4G_032026_03.png
+│       └── KV_Danone_P4G_032026_04.png
 └── README.md
 ```
