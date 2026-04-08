@@ -78,7 +78,8 @@ Assets graphiques officiels du programme **Partner4Growth 2024** (Danone).
 
 | Nom | Description | Lien direct |
 |---|---|---|
-| Hero Runners V2 | Vidéo hero principale (email + landing page) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/Hero_runners-V2.mp4) |
+| Hero Runners V3 | Vidéo hero principale (email + landing page) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/Hero_runners_V3.mp4) |
+| Hero Runners V2 | Vidéo hero runners (V2) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/Hero_runners-V2.mp4) |
 | Hero Runners | Vidéo hero runners (V1) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/Hero_runners.mp4) |
 | Hero Hands | Vidéo hero hands | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/kv/Hero_hands.mp4) |
 
@@ -113,6 +114,7 @@ p4g-assets/
 │   └── vector/
 │       └── DANONE-P4G-LOGO.ai
 ├── kv/
+│   ├── Hero_runners_V3.mp4
 │   ├── Hero_runners-V2.mp4
 │   ├── Hero_runners.mp4
 │   ├── Hero_hands.mp4
