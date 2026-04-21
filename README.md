@@ -85,6 +85,28 @@ Assets graphiques officiels du programme **Partner4Growth 2024** (Danone).
 
 ---
 
+## Hero animations — Email & Landing Page
+
+Animations hero pour le Save the Date P4G 2026. Deux propositions (`op1` par défaut, `op2` alternative).
+
+### Email (GIF + MP4 source)
+
+| Version | Format | Usage | Lien direct |
+|---|---|---|---|
+| Option 1 | GIF | Intégration email (hero maquette principale) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Email_Danone_P4G.gif) |
+| Option 1 | MP4 | Source vidéo | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Email_Danone_P4G.mp4) |
+| Option 2 | GIF | Intégration email (hero variante Day1) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Email_Danone_P4G_op2.gif) |
+| Option 2 | MP4 | Source vidéo | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Email_Danone_P4G_op2.mp4) |
+
+### Landing Page (MP4)
+
+| Version | Usage | Lien direct |
+|---|---|---|
+| Option 1 | Hero landing page (maquette principale) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Landing_Danone_P4G.mp4) |
+| Option 2 | Hero landing page (variante Day1) | [Télécharger](https://raw.githubusercontent.com/WMH-Project/p4g-assets/main/hero/Anim-Landing_Danone_P4G_op2.mp4) |
+
+---
+
 ## Structure du repo
 
 ```
@@ -128,5 +150,12 @@ p4g-assets/
 │       ├── KV_Danone_P4G_032026_02.png
 │       ├── KV_Danone_P4G_032026_03.png
 │       └── KV_Danone_P4G_032026_04.png
+├── hero/
+│   ├── Anim-Email_Danone_P4G.gif
+│   ├── Anim-Email_Danone_P4G.mp4
+│   ├── Anim-Email_Danone_P4G_op2.gif
+│   ├── Anim-Email_Danone_P4G_op2.mp4
+│   ├── Anim-Landing_Danone_P4G.mp4
+│   └── Anim-Landing_Danone_P4G_op2.mp4
 └── README.md
 ```
