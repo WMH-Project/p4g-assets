@@ -107,6 +107,59 @@ Animations hero pour le Save the Date P4G 2026. Deux propositions (`op1` par dé
 
 ---
 
+## Contenu PWA — JSON servi via CDN
+
+Le contenu éditorial de la PWA P4G 2026 (programme, speakers, marketplace, awards, infos pratiques) est versionné ici en JSON et consommé par l'app via jsDelivr. **Pour mettre à jour un contenu sans redéployer la PWA : éditer le JSON, commit, push.** jsDelivr sert `@main` (purge cache possible via `https://purge.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/<fichier>.json`).
+
+> Base CDN recommandée (PWA) : `https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main`
+
+| Fichier | Rôle | Lien CDN |
+|---|---|---|
+| `config.json` | **Point d'entrée** : meta event, dates, venue, couleurs, logos, icônes, table des autres JSON, navigation | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/config.json) |
+| `program-day1.json` | Agenda J1 (17/09) — plénière, panels, immersive, awards, cocktail | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/program-day1.json) |
+| `program-day2.json` | Agenda J2 (18/09) — Top-to-Top, partenaires sélectifs uniquement | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/program-day2.json) |
+| `speakers.json` | Speakers Danone + 3 panels (candidats `recommended`/`alternative`) | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/speakers.json) |
+| `marketplace.json` | Danone Immersive Experience — 5 zones + config registration OneBiome Lab (slots/quotas) | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/marketplace.json) |
+| `awards.json` | Awards — catégories + schémas nominees/jury (**nominees & jury TBC**) | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/awards.json) |
+| `practical.json` | Venue, hosts, arrivée/dépose J1, J2 top-to-top, hôtels, contact | [JSON](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/practical.json) |
+
+> Convention : tout champ non figé porte une clé `_tbc` (string ou array) listant ce qui reste à confirmer. La PWA peut masquer/afficher un bandeau « WIP » selon présence de `_tbc`.
+
+---
+
+## Icônes PWA
+
+Dérivées du logo P4G (wordmark blanc sur fond indigo `#254497`). À référencer dans le `manifest.webmanifest` et le `<head>`.
+
+| Fichier | Taille | Usage | Lien CDN |
+|---|---|---|---|
+| `icon-192.png` | 192×192 | `any` | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-192.png) |
+| `icon-512.png` | 512×512 | `any` | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-512.png) |
+| `icon-maskable-192.png` | 192×192 | `maskable` (safe-zone 60%) | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-maskable-192.png) |
+| `icon-maskable-512.png` | 512×512 | `maskable` | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-maskable-512.png) |
+| `apple-touch-icon.png` | 180×180 | iOS (sans transparence) | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/apple-touch-icon.png) |
+| `favicon.png` | 48×48 | favicon | [PNG](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/favicon.png) |
+
+> **Recommandation** : le wordmark P4G étant large, il est peu lisible en 192px sur l'écran d'accueil. Pour une v2, prévoir une icône « marque » dédiée (monogramme `P4G` ou pictogramme) plutôt que le wordmark complet.
+
+---
+
+## Calendrier (.ics)
+
+| Fichier | Usage | Lien CDN |
+|---|---|---|
+| `P4G2026_SaveTheDate.ics` | Save the date 2 jours (existant) | [ICS](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_SaveTheDate.ics) |
+| `P4G2026_TopToTop_J2.ics` | **Confirmation J2 (18/09)** — partenaires avec T2T. TZID Europe/Paris, rappel J-1 | [ICS](https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_TopToTop_J2.ics) |
+
+---
+
+## Photos manquantes à fournir
+
+- **Speakers** : aucune photo dans le pptx source. Déposer les headshots dans `kv/speakers/` (slug = prénom-nom en kebab-case, ex. `ananda-roy.png`) — chemins déjà câblés dans `speakers.json`.
+- **Awards** : logos des nominés + photos du jury, à déposer une fois la liste figée.
+
+---
+
 ## Structure du repo
 
 ```
@@ -135,11 +188,33 @@ p4g-assets/
 │   │   └── Partner4Growth_2024_logo_blanc_fdBleu.jpg
 │   └── vector/
 │       └── DANONE-P4G-LOGO.ai
+├── content/                         # ← NEW : contenu PWA (JSON servi via CDN)
+│   ├── config.json                  #   point d'entrée (meta, navigation, refs)
+│   ├── program-day1.json
+│   ├── program-day2.json
+│   ├── speakers.json
+│   ├── marketplace.json
+│   ├── awards.json
+│   └── practical.json
+├── icons/                           # ← NEW : icônes PWA
+│   ├── icon-192.png
+│   ├── icon-512.png
+│   ├── icon-maskable-192.png
+│   ├── icon-maskable-512.png
+│   ├── apple-touch-icon.png
+│   ├── favicon.png
+│   └── favicon-32.png
+├── calendar/
+│   ├── P4G2026_SaveTheDate.ics
+│   ├── P4G2026_TopToTop_J2.ics      # ← NEW : confirmation J2 (top-to-top)
+│   ├── apple.png · gmail.png · outlook.png
 ├── kv/
 │   ├── Hero_runners_V3.mp4
 │   ├── Hero_runners-V2.mp4
 │   ├── Hero_runners.mp4
 │   ├── Hero_hands.mp4
+│   ├── hosts/                       # Isabelle.png · Vikram.png
+│   ├── speakers/                    # ← À REMPLIR : headshots speakers (slugs dans speakers.json)
 │   ├── jpg/
 │   │   ├── KV_Danone_P4G_032026_01.jpg
 │   │   ├── KV_Danone_P4G_032026_02.jpg
@@ -150,6 +225,7 @@ p4g-assets/
 │       ├── KV_Danone_P4G_032026_02.png
 │       ├── KV_Danone_P4G_032026_03.png
 │       └── KV_Danone_P4G_032026_04.png
+├── hotels/                          # novotel-paris-saclay.jpg · novotel-massy-palaiseau.jpg · hilton-garden-inn-massy.png
 ├── hero/
 │   ├── Anim-Email_Danone_P4G.gif
 │   ├── Anim-Email_Danone_P4G.mp4

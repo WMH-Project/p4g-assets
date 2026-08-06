@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "source": "pptx slides 5,12,13",
+    "status": "WIP"
+  },
+  "title": "Danone Immersive Experience",
+  "subtitle": "E2E — from consumer & patient needs to our fast-growing platforms, powered by Science & Technology and Operations as a growth accelerator.",
+  "intro": "Partner for Growth transforms Danone's expertise into concrete opportunities for Danone and its partners. Follow the immersive path through the Atrium.",
+  "window": "Day 1 · 16:30–18:30",
+  "zones": [
+    {
+      "order": 1,
+      "code": "#1",
+      "title": "Enter the Ecosystem",
+      "subtitle": "Danone as a competitive partner — Science & Health legacy",
+      "claim": "What makes Danone unique",
+      "space": "Atrium entrance"
+    },
+    {
+      "order": 2,
+      "code": "#2",
+      "title": "Decode Needs & Trends",
+      "subtitle": "Understanding what makes us win — Consumer / Patient insights & market trends",
+      "claim": "Where the market is going",
+      "space": "Consumer Space"
+    },
+    {
+      "order": 3,
+      "code": "#3",
+      "title": "Explore Innovation & Science Assets",
+      "subtitle": "Building competitive edge — Science & Technology capabilities",
+      "claim": "How Danone creates competitive advantage",
+      "space": "OneBiome Lab",
+      "hasRegistration": true,
+      "registrationRef": "oneBiomeRegistration"
+    },
+    {
+      "order": 4,
+      "code": "#4",
+      "title": "Execution in Action & Industry 5.0",
+      "subtitle": "Winning through resilience — Operations as a growth accelerator",
+      "claim": "How we win faster and more resilient, together",
+      "space": "Collaborative Space"
+    },
+    {
+      "order": 5,
+      "code": "#5",
+      "title": "Discover Opportunities & New Growth Spaces",
+      "subtitle": "Where we win next — Future platforms & opportunities",
+      "claim": "Fast-growing platforms: High Protein, Infant Formula, Adult Medical, Gut Health & Fibers",
+      "space": "Plaza"
+    }
+  ],
+  "ideasForValidation": [
+    "ProcureHub GPT",
+    "AI Companion Operations",
+    "VR Glasses Opole"
+  ],
+  "oneBiomeRegistration": {
+    "title": "OneBiome Lab — Book your slot",
+    "zone": "#3 Explore Innovation & Science Assets",
+    "description": "The OneBiome Lab runs on a timed-entry basis. Reserve a slot — capacity is limited.",
+    "backend": "Supabase (slots + quota + per-user booking). See PWA brief §Registration.",
+    "rules": {
+      "oneSlotPerUser": true,
+      "requiresAuth": true
+    },
+    "slots": [
+      {
+        "id": "ob-1630",
+        "start": "16:30",
+        "end": "16:50",
+        "quota": 18,
+        "demoRemaining": 3
+      },
+      {
+        "id": "ob-1650",
+        "start": "16:50",
+        "end": "17:10",
+        "quota": 18,
+        "demoRemaining": 0
+      },
+      {
+        "id": "ob-1710",
+        "start": "17:10",
+        "end": "17:30",
+        "quota": 18,
+        "demoRemaining": 7
+      },
+      {
+        "id": "ob-1730",
+        "start": "17:30",
+        "end": "17:50",
+        "quota": 18,
+        "demoRemaining": 11
+      },
+      {
+        "id": "ob-1750",
+        "start": "17:50",
+        "end": "18:10",
+        "quota": 18,
+        "demoRemaining": 2
+      },
+      {
+        "id": "ob-1810",
+        "start": "18:10",
+        "end": "18:30",
+        "quota": 18,
+        "demoRemaining": 15
+      }
+    ],
+    "_meta_status": "MOCK demo data — slots coherent with Day1 immersive window (16:30–18:30). Replace quotas/remaining with live Supabase values.",
+    "isMock": true,
+    "note": "demoRemaining is mock for UI only — real availability comes from onebiome_availability (Supabase)."
+  }
+}

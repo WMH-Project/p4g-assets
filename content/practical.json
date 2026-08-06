@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "source": "save-the-date + pptx; new arrival/drop-off to confirm",
+    "status": "WIP"
+  },
+  "venue": {
+    "name": "Danone Research & Innovation – Daniel Carasso Center",
+    "address": "TBC — full address",
+    "city": "Paris-Saclay",
+    "country": "France",
+    "mapUrl": "TBC",
+    "_tbc": "Confirm full street address & map link"
+  },
+  "hosts": [
+    {
+      "name": "Isabelle Esser",
+      "title": "Chief Human Resources, Research, Innovation, Quality & Food Safety Officer",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/hosts/Isabelle.png"
+    },
+    {
+      "name": "Vikram Agarwal",
+      "title": "Chief Operations Officer",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/hosts/Vikram.png"
+    }
+  ],
+  "day1": {
+    "date": "2026-09-17",
+    "arrival": {
+      "title": "Arrival & On-site Welcome",
+      "dropOff": "TBC — drop-off point & access for cars/coaches",
+      "welcomeDesk": "TBC — registration desk location & opening time",
+      "parking": "TBC",
+      "accessibility": "TBC",
+      "_tbc": [
+        "Drop-off / coach access details",
+        "Welcome desk location and opening hours",
+        "Parking & PRM access"
+      ]
+    },
+    "dressCode": "TBC",
+    "contacts": [
+      {
+        "label": "Event & logistics",
+        "email": "TBC"
+      }
+    ]
+  },
+  "day2": {
+    "date": "2026-09-18",
+    "audience": "selective-partners",
+    "title": "Top-to-Top Day",
+    "description": "For invited partners with scheduled T2T meetings at Danone HQ (Lafayette, Paris). Confirm your attendance and add it to your calendar.",
+    "calendarIcs": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_TopToTop_J2.ics",
+    "visibilityRule": "Show only to invitees with hasT2T = true",
+    "venue": {
+      "name": "Danone HQ — Lafayette, Paris",
+      "city": "Paris",
+      "note": "Different location from Day 1 (Paris-Saclay).",
+      "_tbc": "Confirm full address + access/drop-off at Danone HQ Lafayette"
+    }
+  },
+  "accommodation": {
+    "intro": "Preferential rates negotiated at nearby hotels. Book early to secure your room.",
+    "hotels": [
+      {
+        "name": "Novotel Paris-Saclay",
+        "location": "91400 Saclay",
+        "distance": "~15 min drive from venue",
+        "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/novotel-paris-saclay.jpg",
+        "bookingUrl": "https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=0392&sourceid=SACLAY&dayIn=17&monthIn=09&yearIn=2026&nightNb=1&preferredCode=SACLAY&merchantid=par-accorFR"
+      },
+      {
+        "name": "Novotel Massy Palaiseau",
+        "location": "91300 Massy",
+        "distance": "~25 min drive from venue",
+        "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/novotel-massy-palaiseau.jpg",
+        "bookingUrl": "https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=0386&sourceid=DANO17&dayIn=17&monthIn=09&yearIn=2026&nightNb=1&preferredCode=DANO17&merchantid=par-accorFR"
+      },
+      {
+        "name": "Hilton Garden Inn Massy",
+        "location": "91300 Massy",
+        "distance": "~15 min drive from venue",
+        "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/hilton-garden-inn-massy.png",
+        "bookingUrl": "https://www.hilton.com/fr/book/reservation/deeplink/?ctyhocn=ORYMAGI&groupCode=GDAN2&arrivaldate=2026-09-17&departuredate=2026-09-18&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
+      }
+    ]
+  },
+  "contact": {
+    "intro": "For any questions regarding the event, logistics, or your registration.",
+    "email": "TBC"
+  }
+}

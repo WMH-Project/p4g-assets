@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "lastUpdated": "2026-06-08",
+    "source": "P4G CONTENT 24.04.pptx + save-the-date",
+    "status": "WIP — several fields flagged TBC"
+  },
+  "event": {
+    "name": "Partner for Growth 2026",
+    "shortName": "P4G 2026",
+    "edition": "2026 Edition in Paris-Saclay",
+    "location": {
+      "city": "Paris-Saclay",
+      "country": "France",
+      "venue": "Danone Research & Innovation – Daniel Carasso Center"
+    },
+    "days": [
+      {
+        "id": "day1",
+        "date": "2026-09-17",
+        "label": "Wednesday, 17 September 2026",
+        "audience": "all-partners",
+        "title": "Plenary — Future-Proof Danone"
+      },
+      {
+        "id": "day2",
+        "date": "2026-09-18",
+        "label": "Thursday, 18 September 2026",
+        "audience": "selective-partners",
+        "title": "Top-to-Top Meetings",
+        "location": {
+          "venue": "Danone HQ — Lafayette, Paris",
+          "city": "Paris"
+        }
+      }
+    ],
+    "timezone": "Europe/Paris"
+  },
+  "app": {
+    "shortName": "P4G 2026",
+    "name": "Partner for Growth 2026",
+    "description": "Your companion app for Danone Partner for Growth 2026, Paris-Saclay.",
+    "themeColor": "#254497",
+    "backgroundColor": "#FFFFFF",
+    "icons": {
+      "icon192": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-192.png",
+      "icon512": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-512.png",
+      "maskable192": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-maskable-192.png",
+      "maskable512": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/icon-maskable-512.png",
+      "appleTouch": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/apple-touch-icon.png",
+      "favicon": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/icons/favicon.png"
+    }
+  },
+  "brand": {
+    "colors": {
+      "indigo": "#254497",
+      "cyan": "#00AAE9",
+      "danoneBlue": "#005EB8",
+      "black": "#000000",
+      "white": "#FFFFFF"
+    },
+    "logos": {
+      "primarySvg": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/svg/Partner4Growth_2024.svg",
+      "blue": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/Partner4Growth_2024_logobleu.png",
+      "white": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/Partner4Growth_2024_logoBlanc.png",
+      "whiteBlue": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/Partner4Growth_2024_logoBlancbleu.png"
+    },
+    "fonts": {
+      "regular": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/fonts/danone-one/DanoneOne-Regular.otf",
+      "bold": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/fonts/danone-one/DanoneOne-Bold.otf",
+      "condensedBold": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/fonts/danone-one/DanoneOne-CondensedBold.otf"
+    },
+    "keyVisuals": [
+      "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/jpg/KV_Danone_P4G_032026_01.jpg",
+      "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/jpg/KV_Danone_P4G_032026_02.jpg",
+      "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/jpg/KV_Danone_P4G_032026_03.jpg",
+      "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/jpg/KV_Danone_P4G_032026_04.jpg"
+    ],
+    "heroVideo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hero/Anim-Email_Danone_P4G.gif"
+  },
+  "content": {
+    "programDay1": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/program-day1.json",
+    "programDay2": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/program-day2.json",
+    "speakers": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/speakers.json",
+    "marketplace": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/marketplace.json",
+    "awards": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/awards.json",
+    "practical": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/content/practical.json"
+  },
+  "navigation": [
+    {
+      "id": "program",
+      "label": "Program",
+      "route": "/program"
+    },
+    {
+      "id": "speakers",
+      "label": "Speakers",
+      "route": "/speakers"
+    },
+    {
+      "id": "marketplace",
+      "label": "Marketplace",
+      "route": "/marketplace"
+    },
+    {
+      "id": "awards",
+      "label": "Awards",
+      "route": "/awards"
+    },
+    {
+      "id": "practical",
+      "label": "Practical Info",
+      "route": "/practical"
+    }
+  ]
+}

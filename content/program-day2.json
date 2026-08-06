@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "source": "pptx slide 10 (T2T track)",
+    "status": "WIP — selective partners only"
+  },
+  "dayId": "day2",
+  "date": "2026-09-18",
+  "label": "Thursday, 18 September 2026",
+  "audience": "selective-partners",
+  "headline": "Top-to-Top Meetings",
+  "intro": "Only selective partners have Top-to-Top (T2T) meetings on Day 2, held at Danone HQ (Lafayette, Paris) — to leverage business together, complementing T2Ts held along the year.",
+  "visibilityRule": "Show this day only to invitees flagged with a T2T (field: hasT2T = true).",
+  "agenda": [
+    {
+      "time": "08:30",
+      "title": "Welcome Coffee",
+      "type": "catering"
+    },
+    {
+      "time": "09:00",
+      "endTime": "10:30",
+      "title": "T2T — Slot 1",
+      "type": "meeting"
+    },
+    {
+      "time": "10:30",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "10:45",
+      "endTime": "12:30",
+      "title": "T2T — Slot 2",
+      "type": "meeting"
+    },
+    {
+      "time": "12:30",
+      "title": "Lunch",
+      "type": "catering"
+    },
+    {
+      "time": "13:30",
+      "endTime": "15:00",
+      "title": "T2T — Slot 3",
+      "type": "meeting"
+    },
+    {
+      "time": "15:00",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "15:15",
+      "endTime": "16:45",
+      "title": "T2T — Slot 4",
+      "type": "meeting"
+    },
+    {
+      "time": "16:45",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "17:00",
+      "endTime": "18:30",
+      "title": "T2T — Slot 5",
+      "type": "meeting"
+    },
+    {
+      "time": "18:30",
+      "title": "Close",
+      "type": "break"
+    }
+  ],
+  "calendar": {
+    "ics": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_TopToTop_J2.ics",
+    "label": "Add Day 2 (Top-to-Top) to my calendar"
+  },
+  "_tbc": [
+    "Per-partner T2T slot assignment & counterpart names"
+  ],
+  "venue": {
+    "name": "Danone HQ — Lafayette, Paris",
+    "city": "Paris",
+    "_tbc": "Confirm full address of Danone HQ Lafayette + access"
+  }
+}

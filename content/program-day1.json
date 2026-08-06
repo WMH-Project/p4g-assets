@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "source": "pptx slides 10-11",
+    "status": "WIP — times consolidated from agenda + plenary draft"
+  },
+  "dayId": "day1",
+  "date": "2026-09-17",
+  "label": "Wednesday, 17 September 2026",
+  "audience": "all-partners",
+  "headline": "Future-Proof Danone",
+  "intro": "Hosted by the Danone Executive Committee. A plenary day to explore how Danone's unique innovation approach accelerates our strategic workstreams and unlocks what comes next, together.",
+  "keyMessages": [
+    "Danone is the unique partner for collaboration",
+    "The right bet to win",
+    "Win competitive"
+  ],
+  "agenda": [
+    {
+      "time": "12:00",
+      "title": "Welcome Lunch",
+      "type": "catering"
+    },
+    {
+      "time": "13:00",
+      "endTime": "14:00",
+      "title": "Opening",
+      "type": "plenary",
+      "description": "Welcome by the CPO, opening by CEO with IE & VA, and the 'Danone Roadshow' by the CFO.",
+      "segments": [
+        {
+          "label": "Welcome",
+          "speakerRole": "CPO"
+        },
+        {
+          "label": "Opening",
+          "speakerRole": "CEO, IE & VA"
+        },
+        {
+          "label": "Danone Roadshow — Finance",
+          "speakerRole": "CFO",
+          "note": "Danone's financial resilience & 2026 ambition; Q2'26 results"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "title": "Coffee Break",
+      "type": "break"
+    },
+    {
+      "time": "14:30",
+      "endTime": "16:00",
+      "title": "Keynote & Panel Discussions",
+      "type": "plenary",
+      "description": "Content-led keynote and panels with external experts, followed by Q&A with the Comex.",
+      "ref": "speakers"
+    },
+    {
+      "time": "16:00",
+      "title": "Coffee Break",
+      "type": "break"
+    },
+    {
+      "time": "16:30",
+      "endTime": "18:30",
+      "title": "Danone Immersive Experience",
+      "type": "experience",
+      "description": "Future-Proof Danone — an immersive path through the marketplace, from consumer & patient needs to our fast-growing platforms, powered by Science & Technology and Operations.",
+      "ref": "marketplace"
+    },
+    {
+      "time": "18:30",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "19:00",
+      "endTime": "21:00",
+      "title": "Awards & CEO Closing",
+      "type": "ceremony",
+      "description": "Partner for Growth Awards ceremony and closing words from the CEO, followed by a cocktail dinner.",
+      "ref": "awards"
+    },
+    {
+      "time": "19:30",
+      "endTime": "21:00",
+      "title": "Cocktail Dinner",
+      "type": "catering"
+    }
+  ],
+  "_tbc": [
+    "Exact start of Awards vs Cocktail overlap",
+    "Confirm whether a morning T2T track runs on the 17th"
+  ]
+}

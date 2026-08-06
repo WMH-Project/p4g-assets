@@ -1,0 +1,205 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "source": "pptx slides 11,21-39",
+    "status": "MOCK/WIP — recommended speaker frozen as 'confirmed' for demo; alternatives kept. Avatars are monogram placeholders (replace with headshots).",
+    "isMock": true
+  },
+  "danoneSpeakers": [
+    {
+      "id": "ceo",
+      "name": "CEO (AdSA)",
+      "role": "Chief Executive Officer",
+      "duration": "10 min",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/ceo.png",
+      "_tbc": "Confirm name display"
+    },
+    {
+      "id": "ie",
+      "name": "Isabelle Esser",
+      "role": "Chief HR, Research, Innovation, Quality & Food Safety Officer",
+      "duration": "15 min",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/hosts/Isabelle.png",
+      "keyMessage": "Doubling down on science & technology and product superiority for consumers and patients."
+    },
+    {
+      "id": "va",
+      "name": "Vikram Agarwal",
+      "role": "Chief Operations Officer",
+      "duration": "15 min",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/hosts/Vikram.png",
+      "keyMessage": "Anti-fragile supply chain & digitalization: Milk Academy, Industry 5.0."
+    },
+    {
+      "id": "cfo",
+      "name": "CFO",
+      "role": "Chief Financial Officer",
+      "duration": "15 min",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/cfo.png",
+      "keyMessage": "Finance Roadshow: Danone's financial resilience & 2026 ambition.",
+      "_tbc": "Confirm name display"
+    }
+  ],
+  "panels": [
+    {
+      "id": "panel-consumer",
+      "number": 1,
+      "title": "Consumer Trends & Category Insights",
+      "theme": "Future of health through food / the era of GLP-1 / packaging",
+      "slot": "day1 14:30–16:00",
+      "anchor": "VPB — Victoire D / Arancha C.",
+      "duration": "20 min",
+      "candidates": [
+        {
+          "name": "Ananda Roy",
+          "status": "recommended",
+          "role": "SVP & Industry Advisor, Consumer Goods",
+          "org": "CIRCANA",
+          "link": "https://www.linkedin.com/in/anandaroy/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/ananda-roy.png",
+          "rationale": "Very aligned with consumer trends, FMCG shifts and category growth; commercial and practical, ideal for an ExCom discussion.",
+          "confirmed": true
+        },
+        {
+          "name": "Emmanuel Fournet",
+          "status": "alternative",
+          "role": "Sales Director — FMCG Industry",
+          "org": "NielsenIQ",
+          "link": "https://www.linkedin.com/in/emmanuel-fournet-92812342/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/emmanuel-fournet.png",
+          "rationale": "FMCG expert, 18 years supporting manufacturers and retailers in France and the US; data-driven on consumer behaviour.",
+          "confirmed": false
+        },
+        {
+          "name": "Jaime Martin",
+          "status": "alternative",
+          "role": "Founding Partner & CEO",
+          "org": "Lantern",
+          "link": "https://www.linkedin.com/in/jaimemartinlantern/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/jaime-martin.png",
+          "rationale": "MBA UCLA Anderson; background in IB/PE and retail consulting.",
+          "confirmed": false
+        }
+      ],
+      "session": {
+        "day": "day1",
+        "window": "14:30–16:00",
+        "stage": "Plenary"
+      }
+    },
+    {
+      "id": "panel-food-macro",
+      "number": 2,
+      "title": "Future of Food / Macroeconomic Trends",
+      "theme": "Future of food and macroeconomics",
+      "slot": "day1 14:30–16:00",
+      "candidates": [
+        {
+          "name": "Louise Fresco",
+          "status": "recommended",
+          "role": "Professor, PhD — University of Amsterdam; Board, Syngenta",
+          "org": "UN / Syngenta",
+          "link": "https://louiseofresco.com/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/louise-fresco.png",
+          "rationale": "One of the strongest Europe-based profiles on the future of food: sustainable food production, agri-food systems and the future of agriculture.",
+          "confirmed": true
+        },
+        {
+          "name": "Mariana Mazzucato",
+          "status": "alternative",
+          "role": "Professor in the Economics of Innovation & Public Value, UCL; Founding Director, IIPP",
+          "org": "University College London",
+          "link": "https://www.linkedin.com/in/mariana-mazzucato/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/mariana-mazzucato.png",
+          "rationale": "One of Europe's most visible economists on innovation, growth, industrial policy and the future of economic systems.",
+          "confirmed": false
+        },
+        {
+          "name": "Hanni Rützler",
+          "status": "alternative",
+          "role": "Nutrition scientist, health psychologist, food-trends researcher; Founder, futurefoodstudio",
+          "org": "futurefoodstudio",
+          "link": "https://www.linkedin.com/in/hanni-r%C3%BCtzler-85401923/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/hanni-rutzler.png",
+          "rationale": "One of Europe's leading food-trend researchers.",
+          "confirmed": false
+        },
+        {
+          "name": "Tim Spector",
+          "status": "alternative-visio",
+          "role": "Professor; science communicator (nutrition, microbiome)",
+          "org": "King's College London / ZOE",
+          "link": "https://www.linkedin.com/in/timspector/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/tim-spector.png",
+          "confirmed": false
+        },
+        {
+          "name": "Johan Swinnen",
+          "status": "alternative-visio",
+          "role": "Director General, IFPRI; MD, Systems Transformation Science Group, CGIAR",
+          "org": "IFPRI / CGIAR",
+          "link": "https://www.linkedin.com/in/johan-swinnen-4a5b751a1/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/johan-swinnen.png",
+          "rationale": "Top-tier Europe-based economist on food-systems transformation, agriculture, development and policy.",
+          "confirmed": false
+        }
+      ],
+      "session": {
+        "day": "day1",
+        "window": "14:30–16:00",
+        "stage": "Plenary"
+      }
+    },
+    {
+      "id": "panel-supply",
+      "number": 3,
+      "title": "Anti-Fragile Supply Chains / Food Security / Agriculture Models",
+      "theme": "Sustainability & anti-fragility",
+      "slot": "day1 14:30–16:00",
+      "anchor": "LS",
+      "duration": "20 min",
+      "candidates": [
+        {
+          "name": "Wolfgang Lehmacher",
+          "status": "recommended",
+          "role": "Supply Chain & Technology Strategist",
+          "org": "GeoPost Intercontinental / WEF",
+          "link": "https://www.linkedin.com/in/wolfganglehmacher/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/wolfgang-lehmacher.png",
+          "rationale": "Strong executive credibility; very practical on resilience, operating models, geopolitical disruption, network redesign and supply-chain anti-fragility. Boardroom-friendly.",
+          "confirmed": true
+        },
+        {
+          "name": "Volkert Engelsman",
+          "status": "alternative",
+          "role": "Chair, Robin Food Coalition; Founder & former CEO, Eosta / Nature & More",
+          "org": "Robin Food Coalition",
+          "link": "https://www.linkedin.com/in/volkert-engelsman-08563511/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/volkert-engelsman.png",
+          "rationale": "Pioneer of sustainable and regenerative food systems.",
+          "confirmed": false
+        },
+        {
+          "name": "Timotée Murillo",
+          "status": "alternative",
+          "role": "Global Senior Director, Smart & Sustainable Farming",
+          "org": "McCain Foods (former Danone)",
+          "link": "https://www.linkedin.com/in/timotheemurillo/",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/timotee-murillo.png",
+          "rationale": "Shaping regenerative agriculture; corporate insider perspective (ex-Danone).",
+          "confirmed": false
+        }
+      ],
+      "session": {
+        "day": "day1",
+        "window": "14:30–16:00",
+        "stage": "Plenary"
+      }
+    }
+  ],
+  "_tbc": [
+    "Replace monogram avatars with real headshots in /kv/speakers/",
+    "Confirm in-person vs visio",
+    "Confirm Danone CEO/CFO name display"
+  ]
+}
