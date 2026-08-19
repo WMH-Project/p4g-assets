@@ -5,7 +5,7 @@
     "status": "OK"
   },
   "venue": {
-    "name": "Danone Research & Innovation – Daniel Carasso Center",
+    "name": "Danone Research & Innovation, Daniel Carasso Center",
     "address": "Zac du Moulon, RD128, 91190 Gif-sur-Yvette",
     "city": "Paris-Saclay",
     "country": "France",
@@ -18,7 +18,7 @@
       {
         "mode": "car",
         "label": "By car",
-        "text": "Mandatory drop-off point at Pass. des Charmes, 91190 Gif-sur-Yvette, where a hostess will welcome you. No parking or drop-off in front of the building — make sure your driver picks you up at this same location for your return."
+        "text": "Mandatory drop-off point at Pass. des Charmes, 91190 Gif-sur-Yvette, where a hostess will welcome you. No parking or drop-off in front of the building. Make sure your driver picks you up at this same location for your return."
       },
       {
         "mode": "transit",
@@ -40,7 +40,7 @@
     "calendarIcs": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_TopToTop_J2.ics",
     "visibilityRule": "Show only to invitees with hasDay2 = true",
     "venue": {
-      "name": "Danone Headquarters — Lafayette",
+      "name": "Danone Headquarters, Lafayette",
       "address": "59-61 rue La Fayette, 75009 Paris",
       "city": "Paris",
       "note": "Different location from Day 1 (Paris-Saclay).",
@@ -60,7 +60,7 @@
     ]
   },
   "accommodation": {
-    "intro": "Book your room as soon as possible — preferential rates are available at some nearby hotels.",
+    "intro": "Book your room as soon as possible: preferential rates are available at some nearby hotels.",
     "hotels": [
       {
         "name": "Paris Marriott Opera Ambassador",

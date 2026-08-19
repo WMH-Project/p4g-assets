@@ -2,7 +2,7 @@
   "_meta": {
     "schemaVersion": 2,
     "source": "Speaker names and Award Categories.xlsx (2026-08)",
-    "status": "OK — confirmed speaker list; photos being collected"
+    "status": "OK, confirmed speaker list; photos being collected"
   },
   "comex": [
     {
@@ -87,7 +87,7 @@
         {
           "id": "victoire-dairou",
           "name": "Victoire Dairou",
-          "role": "VP Research & Innovation — User eXperience",
+          "role": "VP Research & Innovation, User eXperience",
           "org": "Danone",
           "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/victoire-dairou.jpg"
         }
@@ -110,14 +110,14 @@
           "name": "Carla Hilhorst",
           "role": "SVP R&I Categories & Zones",
           "org": "Danone",
-          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/carla-hilhorst.jpg"
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/carla-hilhorst.png"
         },
         {
           "id": "margrethe-jonkman",
           "name": "Margrethe Jonkman",
           "role": "President of the Executive Board",
           "org": "Amsterdam University",
-          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/margrethe-jonkman.jpg"
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/margrethe-jonkman.png"
         }
       ]
     }

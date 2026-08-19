@@ -2,12 +2,12 @@
   "_meta": {
     "schemaVersion": 2,
     "source": "Speaker names and Award Categories.xlsx (2026-08)",
-    "status": "OK — winners intentionally excluded from this public file: revealed live at the ceremony only"
+    "status": "OK, winners intentionally excluded from this public file: revealed live at the ceremony only"
   },
   "title": "Partner for Growth Awards",
   "slot": "Day 1 · 19:00–21:00",
   "intro": "Celebrating the partners who help Danone win. Seven awards, revealed live during the ceremony before the CEO's closing words.",
-  "reveal": "Winners are announced on stage — join us at the ceremony.",
+  "reveal": "Winners are announced on stage. Join us at the ceremony.",
   "categories": [
     { "id": "business-impact-innovation", "title": "Business Impact in Innovation" },
     { "id": "enabling-growth-acceleration", "title": "Enabling Growth Acceleration" },

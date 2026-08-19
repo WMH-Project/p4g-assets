@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "lastUpdated": "2026-06-08",
     "source": "P4G CONTENT 24.04.pptx + save-the-date",
-    "status": "WIP — several fields flagged TBC"
+    "status": "WIP, several fields flagged TBC"
   },
   "event": {
     "name": "Partner for Growth 2026",
@@ -12,7 +12,7 @@
     "location": {
       "city": "Paris-Saclay",
       "country": "France",
-      "venue": "Danone Research & Innovation – Daniel Carasso Center"
+      "venue": "Danone Research & Innovation, Daniel Carasso Center"
     },
     "days": [
       {
@@ -20,7 +20,7 @@
         "date": "2026-09-17",
         "label": "Wednesday, 17 September 2026",
         "audience": "all-partners",
-        "title": "Plenary — Future-Proof Danone"
+        "title": "Plenary: Future-Proof Danone"
       },
       {
         "id": "day2",
@@ -29,7 +29,7 @@
         "audience": "selective-partners",
         "title": "Top-to-Top Meetings",
         "location": {
-          "venue": "Danone HQ — Lafayette, Paris",
+          "venue": "Danone HQ Lafayette, Paris",
           "city": "Paris"
         }
       }
