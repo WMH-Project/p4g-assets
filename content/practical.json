@@ -1,34 +1,50 @@
 {
   "_meta": {
-    "schemaVersion": 2,
-    "source": "Intermediate email P4G 2026 (Day1 / Day1+Day2)",
-    "status": "OK"
+    "schemaVersion": 1,
+    "source": "save-the-date + pptx; new arrival/drop-off to confirm",
+    "status": "WIP"
   },
   "venue": {
     "name": "Danone Research & Innovation, Daniel Carasso Center",
     "address": "Zac du Moulon, RD128, 91190 Gif-sur-Yvette",
     "city": "Paris-Saclay",
     "country": "France",
-    "mapUrl": "https://www.google.com/maps/place/Danone+Research+%26+Innovation+-+Daniel+Carasso+Center+-+Paris-Saclay,+France/@48.7137644,2.1569687,17z/data=!3m1!4b1!4m6!3m5!1s0x47e67f806360631d:0x46170ec034b1d16c!8m2!3d48.713761!4d2.1618396!16s%2Fg%2F11qyq3x6kb?entry=ttu"
+    "mapUrl": "https://www.google.com/maps/place/Danone+Research+%26+Innovation+-+Daniel+Carasso+Center+-+Paris-Saclay,+France/@48.7137644,2.1569687,17z/data=!3m1!4b1!4m6!3m5!1s0x47e67f806360631d:0x46170ec034b1d16c!8m2!3d48.713761!4d2.1618396!16s%2Fg%2F11qyq3x6kb"
   },
-  "hosts": [],
+  "access": [
+    {
+      "mode": "car",
+      "label": "By car",
+      "detail": "Mandatory drop-off point at Pass. des Charmes, 91190 Gif-sur-Yvette, where a hostess will welcome you. No parking or drop-off in front of the building. Please make sure your driver picks you up at this same location for your return."
+    },
+    {
+      "mode": "transit",
+      "label": "Public transport",
+      "detail": "The site is not served by public transportation."
+    },
+    {
+      "mode": "parking",
+      "label": "On-site parking",
+      "detail": "By prior reservation only: request it through the logistics form sent with your confirmation email."
+    }
+  ],
   "day1": {
     "date": "2026-09-17",
-    "access": [
+    "arrival": {
+      "title": "Arrival & On-site Welcome",
+      "welcomeDesk": "TBC: registration desk location & opening time",
+      "accessibility": "TBC",
+      "_note": "Drop-off, parking and public-transport details now live in the top-level `access` array, mirroring the registration site.",
+      "_tbc": [
+        "Welcome desk location and opening hours",
+        "PRM access"
+      ]
+    },
+    "dressCode": "TBC",
+    "contacts": [
       {
-        "mode": "car",
-        "label": "By car",
-        "text": "Mandatory drop-off point at Pass. des Charmes, 91190 Gif-sur-Yvette, where a hostess will welcome you. No parking or drop-off in front of the building. Make sure your driver picks you up at this same location for your return."
-      },
-      {
-        "mode": "transit",
-        "label": "Public transport",
-        "text": "The site is not served by public transportation."
-      },
-      {
-        "mode": "parking",
-        "label": "On-site parking",
-        "text": "By prior reservation only, via the logistics form sent by email."
+        "label": "Event & logistics",
+        "email": "TBC"
       }
     ]
   },
@@ -36,37 +52,43 @@
     "date": "2026-09-18",
     "audience": "selective-partners",
     "title": "Top-to-Top Day",
-    "description": "For invited partners with scheduled T2T meetings at Danone Headquarters (Lafayette, Paris). Confirm your attendance and add it to your calendar.",
+    "description": "For invited partners with scheduled T2T meetings at Danone HQ (Lafayette, Paris). Confirm your attendance and add it to your calendar.",
     "calendarIcs": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_TopToTop_J2.ics",
-    "visibilityRule": "Show only to invitees with hasDay2 = true",
+    "visibilityRule": "Show only to invitees with hasT2T = true",
+    "access": [
+      {
+        "mode": "transfer",
+        "label": "Transfer from Day 1",
+        "detail": "A transfer runs on the evening of Day 1 from the R&I Center to the Danone Lafayette Headquarters. Request it through the logistics form sent with your confirmation email."
+      },
+      {
+        "mode": "car",
+        "label": "By car",
+        "detail": "Recommended drop-off point at 19 rue Cadet, 75009 Paris. No parking on site."
+      },
+      {
+        "mode": "metro",
+        "label": "By metro",
+        "detail": "Cadet station, 80 m walk from the Lafayette site."
+      }
+    ],
     "venue": {
       "name": "Danone Headquarters, Lafayette",
       "address": "59-61 rue La Fayette, 75009 Paris",
       "city": "Paris",
-      "note": "Different location from Day 1 (Paris-Saclay).",
-      "mapUrl": "https://www.google.com/maps/place/Danone+-+Headquarters/@48.8758834,2.3384931,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e39e113ea0f:0x6b25958dbb27f519!8m2!3d48.87588!4d2.343364!16s%2Fg%2F1ttq1dth?entry=ttu"
-    },
-    "access": [
-      {
-        "mode": "car",
-        "label": "By car",
-        "text": "Recommended drop-off point at 19 rue Cadet, 75009 Paris. No parking on site."
-      },
-      {
-        "mode": "transit",
-        "label": "By metro",
-        "text": "Cadet station, 80 m walk from the Lafayette site."
-      }
-    ]
+      "mapUrl": "https://www.google.com/maps/place/Danone+-+Headquarters/@48.8758834,2.3384931,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e39e113ea0f:0x6b25958dbb27f519!8m2!3d48.87588!4d2.343364!16s%2Fg%2F1ttq1dth",
+      "note": "Different location from Day 1 (Paris-Saclay)."
+    }
   },
   "accommodation": {
-    "intro": "Book your room as soon as possible: preferential rates are available at some nearby hotels.",
+    "intro": "We've selected these nearby hotels: preferential rates available at some. Book early to secure your room.",
     "hotels": [
       {
         "name": "Paris Marriott Opera Ambassador",
         "location": "75009 Paris",
-        "distance": "~10 min walk from Lafayette HQ · ideal for the night of 17 September",
-        "audience": "day2",
+        "distance": "~10 min walk from Lafayette HQ",
+        "note": "Ideal for the night of 17 September.",
+        "requiresDay2": true,
         "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/paris-marriott-opera-ambassador.jpg",
         "bookingUrl": "https://app.marriott.com/resview2?id=1784285778986&key=GRP&app=resvlink"
       },
@@ -74,9 +96,17 @@
         "name": "Novotel Paris-Saclay",
         "location": "91400 Saclay",
         "distance": "~15 min drive from the R&I Center",
-        "rate": "Preferential rate: code SACLAY",
+        "rateCode": "SACLAY",
         "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/novotel-paris-saclay.jpg",
         "bookingUrl": "https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=0392&sourceid=SACLAY&dayIn=17&monthIn=09&yearIn=2026&nightNb=1&preferredCode=SACLAY&merchantid=par-accorFR"
+      },
+      {
+        "name": "Novotel Massy Palaiseau",
+        "location": "91300 Massy",
+        "distance": "~25 min drive from the R&I Center",
+        "rateCode": "DANO17",
+        "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/novotel-massy-palaiseau.jpg",
+        "bookingUrl": "https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=0386&sourceid=DANO17&dayIn=17&monthIn=09&yearIn=2026&nightNb=1&preferredCode=DANO17&merchantid=par-accorFR"
       },
       {
         "name": "Hilton Garden Inn Massy",
@@ -84,14 +114,6 @@
         "distance": "~15 min drive from the R&I Center",
         "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/hilton-garden-inn-massy.png",
         "bookingUrl": "https://www.hilton.com/fr/book/reservation/deeplink/?ctyhocn=ORYMAGI&groupCode=GDAN2&arrivaldate=2026-09-17&departuredate=2026-09-18&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
-      },
-      {
-        "name": "Novotel Massy Palaiseau",
-        "location": "91300 Massy",
-        "distance": "~25 min drive from the R&I Center",
-        "rate": "Preferential rate: code DANO17",
-        "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/novotel-massy-palaiseau.jpg",
-        "bookingUrl": "https://all.accor.com/lien_externe.svlt?goto=rech_resa&destination=0386&sourceid=DANO17&dayIn=17&monthIn=09&yearIn=2026&nightNb=1&preferredCode=DANO17&merchantid=par-accorFR"
       }
     ]
   },

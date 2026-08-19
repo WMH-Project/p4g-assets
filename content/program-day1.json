@@ -1,68 +1,117 @@
 {
   "_meta": {
-    "schemaVersion": 2,
-    "source": "Program simplification 2026-08, times only, details removed",
-    "status": "OK"
+    "schemaVersion": 1,
+    "source": "registration site (p4g-website) src/lib/audiences.ts DAY1_AGENDA — transcribed there from the client deck 'P4G Event - September 17th - Agenda to be shared'",
+    "status": "Agenda block times confirmed. Per-session durations are deliberately not shown: the source only commits to a range per block."
   },
   "dayId": "day1",
   "date": "2026-09-17",
-  "label": "Wednesday, 17 September 2026",
+  "label": "Thursday, 17 September 2026",
   "audience": "all-partners",
   "headline": "Future-Proof Danone",
   "intro": "Hosted by the Danone Executive Committee. A plenary day to explore how Danone's unique innovation approach accelerates our strategic workstreams and unlocks what comes next, together.",
+  "keyMessages": [
+    "Danone is the unique partner for collaboration",
+    "The right bet to win",
+    "Win competitive"
+  ],
   "agenda": [
     {
       "time": "12:00",
-      "title": "Welcome Lunch",
+      "endTime": "13:00",
+      "title": "Welcoming Lunch",
       "type": "catering"
     },
     {
       "time": "13:00",
-      "endTime": "14:00",
-      "title": "Opening",
-      "type": "plenary"
-    },
-    {
-      "time": "14:00",
-      "title": "Coffee Break",
-      "type": "break"
-    },
-    {
-      "time": "14:30",
-      "endTime": "16:00",
-      "title": "Keynote & Panel Discussions",
+      "endTime": "14:10",
+      "title": "Event Opening & Comex Messages",
       "type": "plenary",
+      "segments": [
+        {
+          "label": "Event Opening & Danone Comex Messages"
+        },
+        {
+          "label": "Danone Comex & External Keynote Speaker"
+        }
+      ],
       "ref": "speakers"
     },
     {
-      "time": "16:00",
+      "time": "14:10",
+      "endTime": "14:40",
       "title": "Coffee Break",
       "type": "break"
     },
     {
+      "time": "14:40",
+      "endTime": "16:30",
+      "title": "Category Message, Panels & Q&A",
+      "type": "plenary",
+      "segments": [
+        {
+          "label": "Comex Category Message"
+        },
+        {
+          "label": "Panel 1, Consumer Trends & Category Insights"
+        },
+        {
+          "label": "Panel 2, Future of Food"
+        },
+        {
+          "label": "Comex Q&A"
+        }
+      ],
+      "ref": "speakers"
+    },
+    {
       "time": "16:30",
-      "endTime": "18:30",
+      "endTime": "17:00",
+      "title": "Coffee Break",
+      "type": "break"
+    },
+    {
+      "time": "17:00",
+      "endTime": "19:00",
       "title": "Danone Immersive Experience",
       "type": "experience",
+      "description": "Future-Proof Danone, an immersive path through the marketplace, from consumer & patient needs to our fast-growing platforms, powered by Science & Technology and Operations.",
       "ref": "marketplace"
     },
     {
-      "time": "18:30",
+      "time": "19:00",
+      "endTime": "19:30",
       "title": "Break",
       "type": "break"
     },
     {
-      "time": "19:00",
-      "endTime": "21:00",
+      "time": "19:30",
+      "endTime": "20:00",
       "title": "Awards & CEO Closing",
       "type": "ceremony",
+      "segments": [
+        {
+          "label": "Awards"
+        },
+        {
+          "label": "CEO Closing"
+        }
+      ],
       "ref": "awards"
     },
     {
-      "time": "19:30",
-      "endTime": "21:00",
-      "title": "Cocktail Dinner",
+      "time": "20:00",
+      "endTime": "22:00",
+      "title": "Networking Cocktail Dinner",
       "type": "catering"
     }
+  ],
+  "venue": {
+    "name": "Danone Research & Innovation, Daniel Carasso Center",
+    "city": "Paris-Saclay"
+  },
+  "_tbc": [
+    "Speaker names / roles per opening segment (the agenda source names blocks, not people)",
+    "Confirm whether a morning T2T track runs on the 17th — the guest-facing agenda starts at 12:00"
   ]
 }

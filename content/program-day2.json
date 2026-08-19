@@ -1,15 +1,15 @@
 {
   "_meta": {
     "schemaVersion": 1,
-    "source": "pptx slide 10 (T2T track)",
-    "status": "WIP, selective partners only"
+    "source": "pptx slide 10 (T2T track); venue from the registration site (p4g-website) VENUE_LAFAYETTE",
+    "status": "WIP — selective partners only. Venue is confirmed; the running order below is NOT: the registration site publishes no Day-2 agenda and commits only to a provisional 09:00–18:00 Paris envelope."
   },
   "dayId": "day2",
   "date": "2026-09-18",
-  "label": "Thursday, 18 September 2026",
+  "label": "Friday, 18 September 2026",
   "audience": "selective-partners",
   "headline": "Top-to-Top Meetings",
-  "intro": "Only selective partners have Top-to-Top (T2T) meetings on Day 2, held at Danone HQ (Lafayette, Paris) to leverage business together, complementing T2Ts held along the year.",
+  "intro": "Only selective partners have Top-to-Top (T2T) meetings on Day 2, held at Danone HQ (Lafayette, Paris), to leverage business together, complementing T2Ts held along the year.",
   "visibilityRule": "Show this day only to invitees flagged with a T2T (field: hasT2T = true).",
   "agenda": [
     {
@@ -78,11 +78,13 @@
     "label": "Add Day 2 (Top-to-Top) to my calendar"
   },
   "_tbc": [
+    "Day-2 running order is provisional. The registration site publishes no Day-2 agenda and its .ics uses a 09:00–18:00 Paris envelope, while the slots above span 08:30–18:30 — reconcile once the client confirms.",
     "Per-partner T2T slot assignment & counterpart names"
   ],
   "venue": {
-    "name": "Danone HQ Lafayette, Paris",
+    "name": "Danone Headquarters, Lafayette",
+    "address": "59-61 rue La Fayette, 75009 Paris",
     "city": "Paris",
-    "_tbc": "Confirm full address of Danone HQ Lafayette + access"
+    "mapUrl": "https://www.google.com/maps/place/Danone+-+Headquarters/@48.8758834,2.3384931,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e39e113ea0f:0x6b25958dbb27f519!8m2!3d48.87588!4d2.343364!16s%2Fg%2F1ttq1dth"
   }
 }
