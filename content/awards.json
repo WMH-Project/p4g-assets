@@ -1,174 +1,20 @@
 {
   "_meta": {
-    "schemaVersion": 1,
-    "source": "pptx slides 5,11,15",
-    "status": "MOCK demo data — fictional nominees & jury for UI. Replace once the real list is frozen.",
-    "isMock": true
+    "schemaVersion": 2,
+    "source": "Speaker names and Award Categories.xlsx (2026-08)",
+    "status": "OK — winners intentionally excluded from this public file: revealed live at the ceremony only"
   },
   "title": "Partner for Growth Awards",
   "slot": "Day 1 · 19:00–21:00",
-  "intro": "Celebrating the partners who help Danone win. Nominees are announced per category before the CEO's closing words.",
-  "format": "30-second nominee announcement per category, then winner reveal.",
+  "intro": "Celebrating the partners who help Danone win. Seven awards, revealed live during the ceremony before the CEO's closing words.",
+  "reveal": "Winners are announced on stage — join us at the ceremony.",
   "categories": [
-    {
-      "id": "cat-competitive-edge",
-      "title": "Building Competitive Edge",
-      "description": "Science & Technology capabilities — partners advancing how Danone creates competitive advantage.",
-      "nominees": [
-        {
-          "id": "biolys-labs",
-          "name": "Biolys Labs",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/biolys-labs.png",
-          "project": "Co-developed a precision-fermentation protein with Danone R&I, cutting time-to-prototype by 40%."
-        },
-        {
-          "id": "lumen-biotech",
-          "name": "Lumen Biotech",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/lumen-biotech.png",
-          "project": "Microbiome screening platform powering the OneBiome Lab pipeline."
-        },
-        {
-          "id": "novaprotein",
-          "name": "NovaProtein",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/novaprotein.png",
-          "project": "Scaled a plant-based high-protein base from lab to pilot line in 9 months."
-        }
-      ],
-      "winner": null
-    },
-    {
-      "id": "cat-resilience",
-      "title": "Winning Through Resilience",
-      "description": "Operations as a growth accelerator — partners helping Danone win faster and more resilient.",
-      "nominees": [
-        {
-          "id": "cascade-logistics",
-          "name": "Cascade Logistics",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/cascade-logistics.png",
-          "project": "Redesigned EU cold-chain network, +12% on-time delivery during peak disruption."
-        },
-        {
-          "id": "kinetic-supply",
-          "name": "Kinetic Supply",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/kinetic-supply.png",
-          "project": "Dual-sourcing program securing critical ingredients across 3 geographies."
-        },
-        {
-          "id": "helio-packaging",
-          "name": "Helio Packaging",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/helio-packaging.png",
-          "project": "Mono-material recyclable pack rolled out across 4 plants with zero line downtime."
-        }
-      ],
-      "winner": null
-    },
-    {
-      "id": "cat-where-we-win-next",
-      "title": "Where We Win Next",
-      "description": "Future platforms & opportunities — partners on fast-growing platforms.",
-      "nominees": [
-        {
-          "id": "promin-nutrition",
-          "name": "Promin Nutrition",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/promin-nutrition.png",
-          "project": "Adult medical nutrition co-innovation targeting muscle-loss in the GLP-1 era."
-        },
-        {
-          "id": "aurora-ferments",
-          "name": "Aurora Ferments",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/aurora-ferments.png",
-          "project": "Next-gen gut-health & fibers platform for fast-growing categories."
-        },
-        {
-          "id": "northstar-dairy",
-          "name": "NorthStar Dairy",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/northstar-dairy.png",
-          "project": "Infant-formula ingredient partnership opening two new growth markets."
-        }
-      ],
-      "winner": null
-    },
-    {
-      "id": "cat-needs-trends",
-      "title": "Decode Needs & Trends",
-      "description": "Consumer / patient insights — partners helping Danone understand what makes us win.",
-      "nominees": [
-        {
-          "id": "verdant-farms",
-          "name": "Verdant Farms",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/verdant-farms.png",
-          "project": "Regenerative-agriculture data shaping consumer-facing sustainability claims."
-        },
-        {
-          "id": "terrae-ingredients",
-          "name": "Terrae Ingredients",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/terrae-ingredients.png",
-          "project": "Consumer-insight-led reformulation reducing sugar without taste trade-off."
-        },
-        {
-          "id": "greenstep-agri",
-          "name": "GreenStep Agri",
-          "logo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/nominees/greenstep-agri.png",
-          "project": "Farmer-network insights feeding Danone's trend-decoding marketplace."
-        }
-      ],
-      "winner": null
-    }
-  ],
-  "nomineeSchema": {
-    "id": "string",
-    "name": "partner / project name",
-    "logo": "CDN url",
-    "project": "short description",
-    "category": "category id",
-    "videoUrl": "optional"
-  },
-  "jury": [
-    {
-      "id": "sophie-laurent",
-      "name": "Sophie Laurent",
-      "role": "VP Open Innovation",
-      "org": "Danone R&I",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/jury/sophie-laurent.png"
-    },
-    {
-      "id": "marc-dubois",
-      "name": "Marc Dubois",
-      "role": "SVP Global Operations",
-      "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/jury/marc-dubois.png"
-    },
-    {
-      "id": "elena-rossi",
-      "name": "Elena Rossi",
-      "role": "Head of Category Strategy",
-      "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/jury/elena-rossi.png"
-    },
-    {
-      "id": "james-okafor",
-      "name": "James Okafor",
-      "role": "Director, Procurement Partnerships",
-      "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/jury/james-okafor.png"
-    },
-    {
-      "id": "yuki-tanaka",
-      "name": "Yuki Tanaka",
-      "role": "Independent Advisor — Food Systems",
-      "org": "External",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/awards/jury/yuki-tanaka.png"
-    }
-  ],
-  "jurySchema": {
-    "id": "string",
-    "name": "string",
-    "role": "string",
-    "org": "string",
-    "photo": "CDN url"
-  },
-  "_tbc": [
-    "Replace mock nominees & jury with the frozen real list",
-    "Provide real partner logos & jury headshots"
+    { "id": "business-impact-innovation", "title": "Business Impact in Innovation" },
+    { "id": "enabling-growth-acceleration", "title": "Enabling Growth Acceleration" },
+    { "id": "capacity-creation", "title": "Capacity Creation" },
+    { "id": "efficiency", "title": "Efficiency" },
+    { "id": "sustainability-with-impact", "title": "Sustainability with Impact" },
+    { "id": "first-time-right", "title": "1st Time Right" },
+    { "id": "game-changer", "title": "Game Changer" }
   ]
 }
