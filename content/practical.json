@@ -81,7 +81,7 @@
     }
   },
   "accommodation": {
-    "intro": "We've selected these nearby hotels: preferential rates available at some. Please note that attendees are responsible for arranging and booking their own accommodation. Book early to secure your room.",
+    "intro": "We've selected these nearby hotels: preferential rates available at some. Book early to secure your room.",
     "hotels": [
       {
         "name": "Paris Marriott Opera Ambassador",
@@ -115,7 +115,8 @@
         "image": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hotels/hilton-garden-inn-massy.png",
         "bookingUrl": "https://www.hilton.com/fr/book/reservation/deeplink/?ctyhocn=ORYMAGI&groupCode=GDAN2&arrivaldate=2026-09-17&departuredate=2026-09-18&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
       }
-    ]
+    ],
+    "note": "Please note that attendees are responsible for arranging and booking their own accommodation."
   },
   "contact": {
     "intro": "For any questions regarding the event, logistics, or your registration.",
