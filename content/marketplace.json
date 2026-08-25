@@ -6,7 +6,7 @@
   },
   "title": "Danone Immersive Experience",
   "subtitle": "Immersive path",
-  "intro": "Follow the immersive path through the Atrium: the Danone experience across the life stages, powered by Operations as a growth accelerator, ending on the Plaza.",
+  "intro": "Follow the immersive path through the Atrium: the Danone experience across the life stages, powered by Operations as a growth accelerator.",
   "window": "Day 1 · 16:30–18:30",
   "zones": [
     {
@@ -35,19 +35,29 @@
     {
       "order": 5,
       "code": "#5",
-      "title": "Plaza",
+      "title": "Tastings & Success Stories",
       "stations": [
         {
           "title": "Tasting Stations",
-          "items": ["Alpro Baristas", "Activia Kefyr and Fibers", "HiPro & YoPro"]
+          "items": [
+            "Alpro Baristas",
+            "Activia Kefyr and Fibers",
+            "HiPro & YoPro"
+          ]
         },
         {
           "title": "Danone Impact Journey",
-          "items": ["Actimel case", "DIJ key figures"]
+          "items": [
+            "Actimel case",
+            "DIJ key figures"
+          ]
         },
         {
           "title": "P4G Success Stories + Feedback Wall",
-          "items": ["Participative activation", "P4G partners testimonials"]
+          "items": [
+            "Participative activation",
+            "P4G partners testimonials"
+          ]
         }
       ]
     }

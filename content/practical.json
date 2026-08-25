@@ -81,7 +81,7 @@
     }
   },
   "accommodation": {
-    "intro": "We've selected these nearby hotels: preferential rates available at some. Book early to secure your room.",
+    "intro": "We've selected these nearby hotels: preferential rates available at some. Please note that attendees are responsible for arranging and booking their own accommodation. Book early to secure your room.",
     "hotels": [
       {
         "name": "Paris Marriott Opera Ambassador",

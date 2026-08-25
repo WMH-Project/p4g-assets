@@ -8,8 +8,7 @@
   "date": "2026-09-17",
   "label": "Thursday, 17 September 2026",
   "audience": "all-partners",
-  "headline": "Future-Proof Danone",
-  "intro": "Hosted by the Danone Executive Committee. A plenary day to explore how Danone's unique innovation approach accelerates our strategic workstreams and unlocks what comes next, together.",
+  "headline": "Program",
   "keyMessages": [
     "Danone is the unique partner for collaboration",
     "The right bet to win",
@@ -113,5 +112,9 @@
   "_tbc": [
     "Speaker names / roles per opening segment (the agenda source names blocks, not people)",
     "Confirm whether a morning T2T track runs on the 17th — the guest-facing agenda starts at 12:00"
-  ]
+  ],
+  "calendar": {
+    "ics": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/calendar/P4G2026_Day1.ics",
+    "label": "Add Day 1 to my calendar"
+  }
 }
