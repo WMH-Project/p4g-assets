@@ -60,6 +60,7 @@
       "white": "#FFFFFF"
     },
     "logos": {
+      "tagCompact": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/2026/P4G2026_LogoTagCompact-02_cropped.png",
       "primarySvg": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/svg/Partner4Growth_2024.svg",
       "blue": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/Partner4Growth_2024_logobleu.png",
       "white": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/logos/png/Partner4Growth_2024_logoBlanc.png",
