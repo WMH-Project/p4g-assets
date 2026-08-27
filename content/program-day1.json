@@ -23,7 +23,7 @@
     },
     {
       "time": "13:00",
-      "endTime": "14:10",
+      "endTime": "14:15",
       "title": "Event Opening & Comex Messages",
       "type": "plenary",
       "segments": [
@@ -37,13 +37,13 @@
       "ref": "speakers"
     },
     {
-      "time": "14:10",
-      "endTime": "14:40",
+      "time": "14:15",
+      "endTime": "14:45",
       "title": "Coffee Break",
       "type": "break"
     },
     {
-      "time": "14:40",
+      "time": "14:45",
       "endTime": "16:30",
       "title": "Category Message, Panels & Q&A",
       "type": "plenary",
