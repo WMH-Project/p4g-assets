@@ -57,11 +57,6 @@
     "visibilityRule": "Show only to invitees with hasT2T = true",
     "access": [
       {
-        "mode": "transfer",
-        "label": "Transfer from Day 1",
-        "detail": "A transfer runs on the evening of Day 1 from the R&I Center to the Danone Lafayette Headquarters. Request it through the logistics form sent with your confirmation email."
-      },
-      {
         "mode": "car",
         "label": "By car",
         "detail": "Recommended drop-off point at 19 rue Cadet, 75009 Paris. No parking on site."

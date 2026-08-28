@@ -2,7 +2,7 @@
   "_meta": {
     "schemaVersion": 2,
     "source": "Speaker names and Award Categories.xlsx (2026-08)",
-    "status": "OK, confirmed speaker list with profile links"
+    "status": "OK, confirmed speaker list with profile links and head-and-shoulders crops"
   },
   "comex": [
     {
@@ -10,7 +10,7 @@
       "name": "Antoine de Saint-Affrique",
       "role": "Chief Executive Officer",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/antoine-de-saint-affrique.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/antoine-de-saint-affrique-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/antoine-de-saint-affrique.html"
     },
     {
@@ -18,7 +18,7 @@
       "name": "Juergen Esser",
       "role": "Group Deputy CEO, in charge of Finance, Technology and Data",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/juergen-esser.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/juergen-esser-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/juergen-esser.html"
     },
     {
@@ -26,7 +26,7 @@
       "name": "Véronique Penchienati-Bosetta",
       "role": "Group Deputy CEO",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/veronique-penchienati-bosetta.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/veronique-penchienati-bosetta-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/veronique-penchienati-bosetta.html"
     },
     {
@@ -34,7 +34,7 @@
       "name": "Isabelle Esser",
       "role": "Chief HR, R&I, Quality and Food Safety Officer",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/isabelle-esser.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/isabelle-esser-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/isabelle-esser.html"
     },
     {
@@ -42,7 +42,7 @@
       "name": "Vikram Agarwal",
       "role": "Chief Operations Officer",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/vikram-agarwal.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/vikram-agarwal-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/vikram-agarwal.html"
     },
     {
@@ -50,7 +50,7 @@
       "name": "Laurent Sacchi",
       "role": "General Secretary",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/laurent-sacchi.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/laurent-sacchi-v2.jpg",
       "profileUrl": "https://www.danone.com/group/about-us/governance/laurent-sacchi.html"
     }
   ],
@@ -91,7 +91,7 @@
           "name": "Nitesh Priyadarshi",
           "role": "SVP, Strategic Insights and Analytics",
           "org": "Danone",
-          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/nitesh-priyadarshi-v3.jpg",
+          "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/nitesh-priyadarshi-v4.jpg",
           "profileUrl": "https://www.linkedin.com/in/niteshpriyadarshi/"
         },
         {
@@ -142,7 +142,7 @@
       "name": "Olivier Verdelet",
       "role": "SVP Cycles & Procurement Agriculture and Sustainability",
       "org": "Danone",
-      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/olivier-verdelet.jpg",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/olivier-verdelet-v2.jpg",
       "profileUrl": "https://www.linkedin.com/in/olivier-verdelet-9888141/"
     },
     {

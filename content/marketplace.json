@@ -31,35 +31,6 @@
       "order": 4,
       "code": "#4",
       "title": "Operations as a Growth Accelerator"
-    },
-    {
-      "order": 5,
-      "code": "#5",
-      "title": "Tastings & Success Stories",
-      "stations": [
-        {
-          "title": "Tasting Stations",
-          "items": [
-            "Alpro Baristas",
-            "Activia Kefyr and Fibers",
-            "HiPro & YoPro"
-          ]
-        },
-        {
-          "title": "Danone Impact Journey",
-          "items": [
-            "Actimel case",
-            "DIJ key figures"
-          ]
-        },
-        {
-          "title": "P4G Success Stories + Feedback Wall",
-          "items": [
-            "Participative activation",
-            "P4G partners testimonials"
-          ]
-        }
-      ]
     }
   ]
 }
