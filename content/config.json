@@ -80,12 +80,12 @@
     "heroVideo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/hero/Anim-Email_Danone_P4G.mp4"
   },
   "content": {
-    "programDay1": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/program-day1.json",
-    "programDay2": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/program-day2.json",
-    "speakers": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/speakers.json",
-    "marketplace": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/marketplace.json",
-    "awards": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/awards.json",
-    "practical": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@5961f9a/content/practical.json"
+    "programDay1": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/program-day1.json",
+    "programDay2": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/program-day2.json",
+    "speakers": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/speakers.json",
+    "marketplace": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/marketplace.json",
+    "awards": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/awards.json",
+    "practical": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@86ee750/content/practical.json"
   },
   "navigation": [
     {
