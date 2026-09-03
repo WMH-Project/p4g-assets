@@ -2,7 +2,7 @@
   "_meta": {
     "schemaVersion": 2,
     "source": "Speaker names and Award Categories.xlsx (2026-08)",
-    "status": "OK, confirmed speaker list with profile links and head-and-shoulders crops"
+    "status": "OK, confirmed speaker list with profile links and head-and-shoulders crops; panel moderators + MC added 2026-09-03"
   },
   "comex": [
     {
@@ -64,11 +64,28 @@
       "profileUrl": "https://www.linkedin.com/in/erik-fyrwald/"
     }
   ],
+  "masterOfCeremony": [
+    {
+      "id": "sabrina-gaber",
+      "name": "Sabrina Gaber",
+      "role": "Policy Campaign Senior Manager",
+      "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/sabrina-gaber.jpg",
+      "profileUrl": "https://www.linkedin.com/in/sgaber/"
+    }
+  ],
   "panels": [
     {
       "id": "panel-consumer",
       "number": 1,
       "title": "Consumer Trends & Category Insights",
+      "moderator": {
+        "id": "albe-wendt",
+        "name": "Albe Wendt",
+        "role": "VP R&I Advanced Technology",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/speakers/albe-wendt-v3.jpg",
+        "profileUrl": "https://www.linkedin.com/in/albe-wendt-86b27b17/"
+      },
       "speakers": [
         {
           "id": "arancha-cordero",
@@ -108,6 +125,13 @@
       "id": "panel-future-of-food",
       "number": 2,
       "title": "Future of Food",
+      "moderator": {
+        "id": "rocio-martin",
+        "name": "Rocio Martin",
+        "role": "Vice President Life Science Innovation",
+        "org": "Danone",
+        "profileUrl": "https://www.linkedin.com/in/rocio-martin-0a19b510/"
+      },
       "speakers": [
         {
           "id": "katrien-van-laere",
