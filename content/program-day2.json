@@ -1,8 +1,8 @@
 {
   "_meta": {
     "schemaVersion": 1,
-    "source": "pptx slide 10 (T2T track); venue from the registration site (p4g-website) VENUE_LAFAYETTE",
-    "status": "WIP — selective partners only. Venue is confirmed; the running order below is NOT: the registration site publishes no Day-2 agenda and commits only to a provisional 09:00–18:00 Paris envelope."
+    "source": "pptx slide 10 (T2T track); venue from the registration site (p4g-website) VENUE_LAFAYETTE; running order confirmed by the client on 2026-09-08",
+    "status": "Selective partners only. Venue and running order confirmed (client, 8 Sep 2026): doors + coffee 08:30, five 1h30 T2T slots, lunch 12:30, close 18:30."
   },
   "dayId": "day2",
   "date": "2026-09-18",
@@ -14,7 +14,7 @@
   "agenda": [
     {
       "time": "08:30",
-      "title": "Welcome Coffee",
+      "title": "Doors open & Welcome Coffee",
       "type": "catering"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "time": "10:45",
-      "endTime": "12:30",
+      "endTime": "12:15",
       "title": "T2T Slot 2",
       "type": "meeting"
     },
@@ -78,7 +78,7 @@
     "label": "Add Day 2 (Top-to-Top) to my calendar"
   },
   "_tbc": [
-    "Day-2 running order is provisional. The registration site publishes no Day-2 agenda and its .ics uses a 09:00–18:00 Paris envelope, while the slots above span 08:30–18:30 — reconcile once the client confirms.",
+    "Lunch time (12:30) to be re-confirmed by the client on 9 Sep 2026.",
     "Per-partner T2T slot assignment & counterpart names"
   ],
   "venue": {
