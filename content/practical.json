@@ -4,6 +4,47 @@
     "source": "save-the-date + pptx; new arrival/drop-off to confirm",
     "status": "WIP"
   },
+  "eventContacts": {
+    "title": "Your event contacts",
+    "intro": "Need assistance? The Partner for Growth team is here to help.",
+    "people": [
+      {
+        "id": "marko-covic",
+        "name": "Marko Covic",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/contacts/marko-covic.jpg",
+        "profileUrl": "https://www.linkedin.com/in/markocovic/"
+      },
+      {
+        "id": "geovani-candelorio",
+        "name": "Geovani Candelorio",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/contacts/geovani-candelorio.jpg",
+        "profileUrl": "https://www.linkedin.com/in/geovani-candelorio/"
+      },
+      {
+        "id": "anastasiia-selivanova",
+        "name": "Anastasiia Selivanova",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/contacts/anastasiia-selivanova.jpg",
+        "profileUrl": "https://www.linkedin.com/in/anastasiia-selivanova/"
+      },
+      {
+        "id": "marion-meslin",
+        "name": "Marion Meslin",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/contacts/marion-meslin.jpg",
+        "profileUrl": "https://www.linkedin.com/in/marion-meslin-1238593/"
+      },
+      {
+        "id": "akriti-gupta",
+        "name": "Akriti Gupta",
+        "org": "Danone",
+        "photo": "https://cdn.jsdelivr.net/gh/WMH-Project/p4g-assets@main/kv/contacts/akriti-gupta.jpg",
+        "profileUrl": "https://www.linkedin.com/in/rktgpt/"
+      }
+    ]
+  },
   "venue": {
     "name": "Danone Research & Innovation, Daniel Carasso Center",
     "address": "Zac du Moulon, RD128, 91190 Gif-sur-Yvette",
