@@ -11,10 +11,10 @@
   "categories": [
     { "id": "business-impact-innovation", "title": "Business Impact in Innovation" },
     { "id": "enabling-growth-acceleration", "title": "Enabling Growth Acceleration" },
-    { "id": "capacity-creation", "title": "Capacity Creation" },
+    { "id": "first-time-right", "title": "1st Time Right" },
     { "id": "efficiency", "title": "Efficiency" },
     { "id": "sustainability-with-impact", "title": "Sustainability with Impact" },
-    { "id": "first-time-right", "title": "1st Time Right" },
+    { "id": "capacity-creation", "title": "Capacity Creation" },
     { "id": "game-changer", "title": "Game Changer" }
   ]
 }
